@@ -208,7 +208,7 @@ module.exports = {
         }
       },
       '/cdnserver': {
-        target: 'http://localhost:3034/',
+        target: 'https://testcdncs.mkcl.org/',
         ws: true,
         changeOrigin: true,
         pathRewrite: {

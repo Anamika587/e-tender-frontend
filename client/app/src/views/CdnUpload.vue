@@ -196,13 +196,13 @@ export default {
       new MQLCdn()
         .enablePageLoader(true)
         // FIXED: change this to directory path
-        .setDirectoryPath('/demoFolder') // (optional field) if you want to save  file to specific directory path
+        .setDirectoryPath('/EtenderExcelUpload') // (optional field) if you want to save  file to specific directory path
         .setFormData(formData) // (required) sets file data
         .setFileName(this.inputFileName) // (optional field) if you want to set name to file that is being uploaded
         // FIXED: pass buckeyKey instead of name
-        .setBucketKey('10') // (required) valid bucket key need to set in which file will be uploaded.
-        .setPurposeId('10') // (required) valid purposeId need to set in which file will be uploaded.
-        .setClientId('26') // (required) valid purposeId need to set in which file will be uploaded.
+        .setBucketKey('1yA2e9wXt5yZaVA3UaxkHrepKis') // (required) valid bucket key need to set in which file will be uploaded.
+        .setPurposeId('1yA2VblwnD8OurdP4b2l6IXg0l9') // (required) valid purposeId need to set in which file will be uploaded.
+        .setClientId('1yA2VblwnD8OurdP4b2l6IXg0l9') // (required) valid purposeId need to set in which file will be uploaded.
         .uploadFile('uploadtBtn').then(res => { // (required) this will upload file takes element id (optional param) which will be blocked while file upload..
           if (res.isValid()) {
             this.uploadedFilePath = res.uploadedFileURL() // returns uploaded file url..
