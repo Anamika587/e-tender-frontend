@@ -33,43 +33,11 @@
           </li>
 
            <li>
-            <router-link to="/about"><i class="mdi mdi-information-variant sidebar-icon"></i> About</router-link>
-          </li>
-
-           <li>
-            <router-link to="/login"><i class="mdi mdi-account sidebar-icon"></i> Login</router-link>
-          </li>
-
-           <li>
-            <router-link to="/registration"><i class="mdi mdi-account-edit sidebar-icon"></i> Registration</router-link>
-          </li>
-
-           <li>
             <router-link to="/mqlRequestDemo"><i class="mdi mdi-presentation-play sidebar-icon"></i> mqlRequestDemo</router-link>
           </li>
 
            <li>
-            <router-link to="/i18Demo"><i class="mdi mdi-eject-outline sidebar-icon"></i> i18Demo</router-link>
-          </li>
-
-           <li>
-            <router-link to="/validator"><i class="mdi mdi-check-all sidebar-icon"></i> Validator</router-link>
-          </li>
-
-           <li>
-            <router-link to="/encryption"><i class="mdi mdi-laptop sidebar-icon"></i> Encryption</router-link>
-          </li>
-
-           <li>
             <router-link to="/cdnUpload"><i class="mdi mdi-upload sidebar-icon"></i> CdnUpload</router-link>
-          </li>
-
-           <li>
-            <router-link to="/tableDemo"><i class="mdi mdi-file-table-outline sidebar-icon"></i> TableDemo</router-link>
-          </li>
-
-           <li>
-            <router-link to="/veuMetaExample/:title"><i class="mdi mdi-arrow-expand sidebar-icon"></i> VeuMetaExample</router-link>
           </li>
 
            <li>
