@@ -20,6 +20,12 @@ export default new Router({
       meta: { title: 'MQLRequestDemo', icon : 'mdi mdi-presentation-play' }
     },
     {
+      path: '/excelAll',
+      name: 'excelAll',
+      component: loadView('ExcelAll'),
+      meta: { title: 'ExcelAll' , icon : 'mdi mdi-upload'}
+    },
+    {
       path: '/cdnUpload',
       name: 'cdnUpload',
       component: loadView('CdnUpload'),

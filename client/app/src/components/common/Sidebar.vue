@@ -40,6 +40,10 @@
             <router-link to="/cdnUpload"><i class="mdi mdi-upload sidebar-icon"></i> CdnUpload</router-link>
           </li>
 
+          <li>
+            <router-link to="/excelAll"><i class="mdi mdi-upload sidebar-icon"></i> Excel All</router-link>
+          </li>
+
            <li>
             <router-link to="/MqlAssetFDBDemo"><i class="mdi mdi-database-plus sidebar-icon"></i> MqlAssetFDBDemo</router-link>
           </li>
