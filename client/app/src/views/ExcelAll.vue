@@ -25,7 +25,7 @@
     <section>
       <h3>Import XLSX</h3>
       <input type="file" @change="onChange" />
-      <xlsx-read :file="file">
+      <xlsx-read :file="file"> 
         <xlsx-sheets>
           <template #default="{sheets}">
             <select v-model="selectedSheet">
@@ -35,7 +35,7 @@
             </select>
           </template>
         </xlsx-sheets>
-        <xlsx-table :sheet="selectedSheet" />
+        <xlsx-table :sheet="selectedSheet" style="height: 400px; overflow-y: auto; margin:2em auto 2em;" />
         <xlsx-json :sheet="selectedSheet">
           <template #default="{collection}">
             <button @click="setData(collection)">Upload Data</button>
